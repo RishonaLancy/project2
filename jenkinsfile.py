@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace with your actual GitHub repository URL
-                git branch: 'main', url: 'https://github.com/<student-username>/<repo-name>.git'
+                git branch: 'main', url: 'https://github.com/RishonaLancy/project2.git'
             }
         }
         
